@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentRecoder"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/recordTime"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/bg"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="40dp"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/recordLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"/>
+       <ImageView
+           android:id="@+id/recordImage"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:background="@drawable/background"
+           android:layout_gravity="center_horizontal"
+           android:layout_margin="40dp" />
+</LinearLayout>
